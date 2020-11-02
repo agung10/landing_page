@@ -1,143 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AM'Travel</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets//img/icon/AM'Travel.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <!-- Start Header -->
     <header>
-        <nav>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="assets/img/logo/AMTravel.png" alt="AMTravel">
+            </div>
+
             <ul>
                 <li>
-                    <a href="#daftar_cabang">Daftar Cabang</a>
+                    <a href="#tentang">Tentang Kami</a>
                 </li>
                 <li>
-                    <a href="#daftar_paket">Daftar Paket</a>
+                    <a href="#cabang">Cabang</a>
+                </li>
+                <li>
+                    <a href="#paket">Paket</a>
                 </li>
             </ul>
         </nav>
-        <img src="img/logo/AMTravel.png" alt="AMTravel" width="170">
+        <div class="jumbotron">
+            <div class="overlay">
+                <h2 class="jDeskripsi">Nikmati <span>Perjalanan</span> <br /> dengan
+                    <span>AM'Travel</span> Sekarang Juga</h2>
+                <div class="order">
+                    <a href="" class="btn btn-outline text-white">Order Now</a>
+                </div>
+            </div>
+        </div>
     </header>
-    <br>
-    <marquee scrollamount="13">Selamat Datang di website Travel & Tour <b>"AM'Travel"</b></marquee>
-    <center>
-        <div class="wisata">
-            <h3>AM'TRAVEL</h3>
-            <img src="img/lokasi/bali.jpg" alt="Bali" width="700">
-        </div>
-    </center>
+    <!-- End Header -->
 
-    <div class="main">
-        <div class="content">
-            <p class="sub">Deskripsi</p>
-            <p class="isi_deskripsi">
-                <a href="">AM'Travel</a>
-                adalah perusahaan jasa travel yang sudah berdiri sejak tahun 2012. Komitmen kami adalah memberikan
-                kepuasan terbaik kepada seluruh konsumen dengan dengan layanan yang Profesional sehingga konsumen merasa
-                puas
-                dan senang kepada produk pelayanan jasa kami ini.
-            </p>
-        </div>
-
-        <hr>
-        <hr>
-
-        <div class="content" id="daftar_cabang">
-            <p class="sub">Daftar Cabang</p>
-            <div class="cabang-cabang">
-                <div class="cabang">
-                    <img src="img/lokasi/pasming.jpg" alt="Pasar Minggu" width="200">
-                    <br>
-                    <strong>Jakarta</strong>
-                    <p>Jln. Pekayon 13 No.41 RT 006/05, Kel Pasming, Kec Pasming</p>
-                </div>
-                <div class="cabang">
-                    <img src="img/lokasi/underpas.jpg" alt="Underpass" width="200">
-                    <br>
-                    <strong>Bekasi</strong>
-                    <p>Jln. Raya Baru Underpass No.96 RT 009/06, Kel Rawamangun, Kec Pekayon</p>
-                </div>
-                <div class="cabang">
-                    <img src="img/lokasi/juanda.jpg" alt="Juanda" width="200">
-                    <br>
-                    <strong>Depok</strong>
-                    <p>Jln. Juanda No.52 RT 009/04, Kel Depok Timur, Kec Depok Tengah</p>
+    <!-- Start Main -->
+    <main>
+        <!-- Info panel -->
+        <div class="row justify-content-center">
+            <div class="col-10 info-panel">
+                <div class="row">
+                    <div class="info">
+                        <div class="fitur">
+                            <img src="assets/img/info_panel/pesawat.png" alt="Tiket Pesawat">
+                        </div>
+                        <h4>Tiket Perjalanan</h4>
+                        <p>Mendapatkan tiket perjalanan.</p>
+                    </div>
+                    <div class="info">
+                        <div class="fitur">
+                            <img src="assets/img/info_panel/hotel.png" alt="Tiket Penginapan">
+                        </div>
+                        <h4>Penginapan</h4>
+                        <p>Mendapatkan penginapan yang nyaman.</p>
+                    </div>
+                    <div class="info">
+                        <div class="fitur">
+                            <img src="assets/img/info_panel/keamanan.png" alt="Keamanan">
+                        </div>
+                        <h4>Keamanan</h4>
+                        <p>Keamanan sangat dijamin.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="content" id="daftar_paket">
-            <p class="sub">Daftar Paket</p>
-            <table border="3">
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Paket</th>
-                        <th>Harga</th>
-                        <th>Waktu</th>
-                        <th>Syarat</th>
-                        <th>Deskripsi</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Paket super premium</td>
-                        <td>Rp.6.900.000</td>
-                        <td>3 Hari</td>
-                        <td>KTP / Identitas Lain</td>
-                        <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket, Driver as Guide
-                            Super Seru, Transport AC Dingin dan Nyaman, Antar Jemput.</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Paket premium</td>
-                        <td>Rp.5.900.000</td>
-                        <td>3 Hari</td>
-                        <td>KTP / Identitas Lain</td>
-                        <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket, Driver as Guide
-                            Super Seru, Transport AC Dingin dan Nyaman.</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Paket istimewa</td>
-                        <td>Rp.4.900.000</td>
-                        <td>3 Hari</td>
-                        <td>KTP / Identitas Lain</td>
-                        <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket, Driver as Guide
-                            Super Seru.</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Paket menengah</td>
-                        <td>Rp.3.900.000</td>
-                        <td>3 Hari</td>
-                        <td>KTP / Identitas Lain</td>
-                        <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket.</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Paket biasa</td>
-                        <td>Rp.2.900.000</td>
-                        <td>3 Hari</td>
-                        <td>KTP / Identitas Lain</td>
-                        <td>Air Mineral, Makan Sesuai Program Paket.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <br/>
+        <!-- Start Tentang -->
+        <section class="tentang" id="tentang">
+            <div class="container">
+                <div class="content">
+                    <div class="judul">
+                        <h2>Tentang Kami</h2>
+                        <hr />
+                    </div>
+                    <div class="artikel">
+                        <p class="deskripsi">
+                            <span>AM'Travel</span> adalah perusahaan jasa travel yang sudah berdiri sejak tahun 2012.
+                            Komitmen kami adalah memberikan kepuasan terbaik kepada seluruh konsumen dengan dengan
+                            layanan yang profesional sehingga konsumen merasa puas dan senang kepada produk pelayanan
+                            jasa kami ini.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Tentang -->
+
+        <!-- Start Cabang -->
+        <section class="cabang" id="cabang">
+            <div class="container">
+                <div class="content">
+                    <div class="judul">
+                        <h2>Daftar Cabang</h2>
+                        <hr />
+                    </div>
+                    <div class="artikel">
+                        <div class="cabang">
+                            <div class="pertama">
+                                <a href=""><img src="assets/img/cabang/malang.jpg" alt="Cabang Malang"></a>
+                                <h4>Cabang Malang</h4>
+                                <p>Jln. Pekayon 13 No.41 RT 006/05, Kel Pasming, Kec Pasming</p>
+                            </div>
+                            <div class="kedua">
+                                <a href=""><img src="assets/img/cabang/bali.jpg" alt="Cabang Bali"></a>
+                                <h4>Cabang Bali</h4>
+                                <p>Jln. Raya Baru Underpass No.96 RT 009/06, Kel Rawamangun, Kec Pekayon</p>
+                            </div>
+                            <div class="ketiga">
+                                <a href=""><img src="assets/img/cabang/bandung.jpg" alt="Cabang Bandung"></a>
+                                <h4>Cabang Bandung</h4>
+                                <p>Jln. Juanda No.52 RT 009/04, Kel Depok Timur, Kec Depok Tengah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Cabang -->
+
+        <!-- Start Daftar Paket -->
+        <section class="paket" id="paket">
+            <div class="container">
+                <div class="content">
+                    <div class="judul">
+                        <h2>Daftar Paket</h2>
+                        <hr />
+                    </div>
+                    <div class="artikel">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Paket</th>
+                                    <th>Harga</th>
+                                    <th>Waktu</th>
+                                    <th>Syarat</th>
+                                    <th>Deskripsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Paket super premium</td>
+                                    <td>Rp.6.900.000</td>
+                                    <td>3 Hari</td>
+                                    <td>KTP / Identitas Lain</td>
+                                    <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket, Driver
+                                        as
+                                        Guide
+                                        Super Seru, Transport AC Dingin dan Nyaman, Antar Jemput.</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Paket premium</td>
+                                    <td>Rp.5.900.000</td>
+                                    <td>3 Hari</td>
+                                    <td>KTP / Identitas Lain</td>
+                                    <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket, Driver
+                                        as
+                                        Guide
+                                        Super Seru, Transport AC Dingin dan Nyaman.</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Paket istimewa</td>
+                                    <td>Rp.4.900.000</td>
+                                    <td>3 Hari</td>
+                                    <td>KTP / Identitas Lain</td>
+                                    <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket, Driver
+                                        as
+                                        Guide
+                                        Super Seru.</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Paket menengah</td>
+                                    <td>Rp.3.900.000</td>
+                                    <td>3 Hari</td>
+                                    <td>KTP / Identitas Lain</td>
+                                    <td>Air Mineral, Tiket Masuk Wisata / Retribusi, Makan Sesuai Program Paket.</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Paket biasa</td>
+                                    <td>Rp.2.900.000</td>
+                                    <td>3 Hari</td>
+                                    <td>KTP / Identitas Lain</td>
+                                    <td>Air Mineral, Makan Sesuai Program Paket.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Daftar Paket -->
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
     <footer>
-        <center>
-            Dipersembahkan oleh <a href="">AM'Travel</a>
-        </center>
+        <div class="float-left">
+            <p>STT Terpadu Nurul Fikri</p>
+        </div>
+        <div class="center">
+            <p> &copy; 2020 Copyright <a href="">AM'Travel</a> </p>
+        </div>
+        <div class="float-right">
+            <p>Sistem Informasi - 05</p>
+        </div>
     </footer>
+    <!-- End Footer -->
 </body>
 
 </html>
